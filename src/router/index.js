@@ -30,8 +30,9 @@ const culturePropaganda = resolve => require(['@/views/culture/culturePropaganda
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
-    { path: '/login',name: 'UserLogin',component: UserLogin},
+    
     {
 
       path: '/',
@@ -49,7 +50,9 @@ const router = new Router({
 
       ]
 
-  }]
+  },
+    { path: '/login',name: 'UserLogin',component: UserLogin},
+  ]
 })
 
 router.beforeEach((to, from, next) => {

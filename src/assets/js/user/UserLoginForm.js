@@ -102,7 +102,7 @@ export default {
         if (valid) {
 
           sessionStorage.setItem('userPhone', this.$data.loginInfo.username);
-          this.$router.push({ path: '/systemPage' });
+          this.$router.push({ path:'systemPage',query:{hehe:1}});
 
         } else {
           return false

@@ -37,10 +37,15 @@ export default {
 
     }
   },
+  mounted() {
+  
+  },
   created(){
     this.getLineInfo();
     this.getRingInfo();
     this.getPeiInfo();
+    console.log(this.$route)
+
   },
   methods:{
     isChoseTimeBtnOne(){

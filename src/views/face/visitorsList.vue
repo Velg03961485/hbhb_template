@@ -72,26 +72,26 @@
           </el-table-column>
           <el-table-column
             label="顾客姓名" align="center">
-            <template slot-scope="scope" style="text-align: center">
+            <template slot-scope="scope" style="text-align: center" align="center">
               <span>{{scope.row.name === '' ? '--' : scope.row.name}}</span>
             </template>
           </el-table-column>
 
           <el-table-column
             label="昵称" align="left">
-            <template slot-scope="scope" style="text-align: left">
+            <template slot-scope="scope" style="text-align: left" align="center">
               <span>{{scope.row.nickname === '' ? '--' : scope.row.nickname}}</span>
             </template>
           </el-table-column>
           <el-table-column
-            label="性别" align="center">
+            label="性别" align="center" >
             <template slot-scope="scope" style="text-align: center">
               <span>{{scope.row.sex === '0' ? '--' : (scope.row.sex === '1' ? '男' : '女')}}</span>
             </template>
           </el-table-column>
           <el-table-column
-            label="生日" align="left">
-            <template slot-scope="scope" style="text-align: left">
+            label="生日" align="center">
+            <template slot-scope="scope" style="text-align: left" >
               <span>{{scope.row.birth === '' ? '--' : scope.row.birth}}</span>
             </template>
           </el-table-column>
@@ -102,7 +102,7 @@
             </template>
           </el-table-column>
           <el-table-column
-            label="手机号" align="left">
+            label="手机号" align="center">
             <template slot-scope="scope" style="text-align: left">
               <span>{{scope.row.telephone}}</span>
             </template>
