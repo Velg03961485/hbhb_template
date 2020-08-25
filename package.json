@@ -19,7 +19,7 @@
     "body-parser": "^1.18.3",
     "clipboard": "^2.0.4",
     "element-ui": "2.4.0",
-    "highcharts": "^6.2.0",
+    "highcharts": "^7.2.2",
     "highcharts-no-data-to-display": "^0.1.7",
     "html2canvas": "^1.0.0-rc.3",
     "mint-ui": "^2.2.13",
